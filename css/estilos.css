@@ -443,9 +443,9 @@ button{
             color: #fff;
     }
     .jump{
-        font-size: 40px;
+        font-size: 60px;
         font-family: fantasy;
-        color: #62a6d1;
+        color: #95c6e4;
         font-weight: 300;
         animation: saltar 3s infinite;
         animation-timing-function: ease-in-out;
@@ -499,9 +499,467 @@ button{
             transform: translateY(-10px);
         }
     }
-.jumbotron{
-    background-image: url(img/imagen18.webp);
-}
+    .jumbotron{
+        background: linear-gradient(rgba(5, 7, 12, 0.50), rgba(5, 7, 12, 0.30)), url(img/imagen22.png);
+        width: 100%;
+        background-repeat: no-repeat;
+        height: 550px;
+        background-size: contain;
+        background-position: center;
+        text-shadow: 0 0 10px #333;
+    }
+    .jumbotron1{
+        background: url(img/Airplane-window.jpg);
+        width: 100%;
+        background-repeat: no-repeat;
+        height: 650px;
+        background-position: center;
+        background-size: cover;
+    }
+    .jumbotron2{
+        background: linear-gradient(rgba(5, 7, 12, 0.50), rgba(5, 7, 12, 0.30)), url(img/meeting-1019875_960_720.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        height: 700px;
+    }
+    .jumbotron3{
+        background-image: url(img/imageen.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        height: 700px;
+    }
+    .p9{
+        font-family: 'Times New Roman', Times, serif;
+        margin-left: 950px;
+      }
+      .i7{
+        text-align: right;
+      }
+      .F{
+        width: 30%;
+        height: 500px;
+        display: flex;
+        font-family:'Poppins', sans-serif;
+        background:rgb(0, 0, 0, 0.3);
+        border-radius: 10px;
+        justify-content: center;
+        margin-left: 500px;
+        position: absolute;
+        box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+        transition: height 2s, width 0.5s;
+      }
+      .f1{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+        font-size: 30px;
+        text-align: center;
+        justify-content: center;
+        color: #2196f3;
+      }
+      .grupo{
+        position: relative;
+        font-family:'Poppins', sans-serif;
+        margin: 40px;
+      }
+      input{
+        font-size: 18px;
+        padding: 5px 5px 5x 2px;
+        border: none;
+        background: none;
+        font-family:'Poppins', sans-serif;
+        border-bottom: outset 1px lightblue;
+        display: block;
+      }
+      input:focus{
+        outline: none;
+        color: lightskyblue;
+      }
+      input:focus~label, 
+      input:valid~label{
+        position: absolute;
+        top:-14px;
+        color: #2196f3;
+        font-size: 12px;
+        font-family: initial;
+      }
+      label{
+        position: absolute;
+        color: rgb(0, 0, 0);
+        font-weight: 300;
+        top: 5px;
+        left: 5px;
+        transition: 0.5s ease all;
+        pointer-events: none;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+      input:focus~.barra::before{
+        width: 100%;
+      }
+      .barra{
+        position: relative;
+        display: block;
+        width: 100%;
+      }
+      .barra::before{
+        content: "";
+        height: 2px;
+        width: 0;
+        bottom: 0;
+        left: 0%;
+        position: absolute;
+        transition: 0.3s ease all;
+        background: lightblue;
+      }
+      .b5{
+        border: none;
+        font-size: 17px;
+        border-radius: 4px;
+        width: 100px;
+        color: #ddd;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        height: 40px;
+        font-weight: bold;
+        background: #2c3e50;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        ;
+      }
+    .comentarios{
+        width: 200px;
+        height: auto;
+        margin-left: 980px;
+      }
+      .comentarios .comentario{
+        width: 100%;
+      }
+      .comentarios .comentario p{
+        margin: 10px 0 10px 0;
+      }
+      .burbuja{
+        background-color: rgb(241, 246, 248);
+        padding: 10px;
+        position: relative;
+        color: #222;
+        border-radius: 20px;
+        bottom: 500px;
+      }
+      .burbuja::after{
+        content: "";
+        display: block;
+        position: absolute;
+    
+        top: 15px;
+        margin-left: -24px;
+    
+        width: 0;
+        height: 0;
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid transparent;
+    
+        border-right: 15px solid rgb(241, 246, 248);
+      }
+      .p10{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        font-weight: bold;
+        color: rgb(16, 85, 155);
+        justify-content: center;
+      }
+      .parrafo4{
+        vertical-align: middle;
+            width: 300px;
+            font-family: initial;
+            font-weight: 700;
+            font-style: italic;
+            text-align: center;
+            margin: 0 500px  ;
+            font-size: 20px;
+            color: rgb(210, 236, 235);
+      }
+      .cajas{
+        margin: 0;
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: center;
+        align-items: center;
+      }
+      .bloque{
+        height: 250px;
+        width: 200px;
+        border-radius: 20px;
+        display: inline-block;
+        margin-left: 200px;
+        background :rgb(0, 0, 0,0.3);
+        animation-name: deslizar;
+        animation-duration: 5s;
+        box-shadow: 5px #fff;
+      }
+      .p1{
+          margin-top: 40px;
+          margin-left: 20px;
+          color: rgb(224, 215, 215);
+          border: 2px solid var(--color-gold);
+          cursor: pointer;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      #titulo4{
+      font-size: 2rem;
+  text-align: center;
+  color: rgb(118, 193, 240);
+  text-shadow: 2px 2px 3px rgb(15, 44, 73);
+    }
+    .p4{ 
+        margin: 80px;
+        border-radius: 2rem ;
+        margin-bottom: 750px;
+        position: absolute;
+        display: grid;
+        background-color: paleturquoise;
+        border: 3px inset;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+      }
+      .caja{
+        margin: 20rem 40rem;
+        width: 500px;
+        border: 1px solid #ddd;
+        padding:0;
+        background: rgb(187, 221, 238);
+        margin-top: auto;
+        position: absolute;
+        box-shadow: 5px 5px 5px 5px rgba(0, 0 ,0, 0.2);
+      }
+      .day{
+        margin: 0.5rem ;
+        padding: 0.8rem;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        list-style: none;
+        color: #444;
+      }
+      .day-name{
+        background-color: rgb(108, 179, 202);
+        font: 0.8rem sans-serif;
+        font-style: normal;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        left: 1rem;
+        right: 1rem;
+        margin: 0;
+      }
+      .first-day{
+        grid-column-start: 2;
+      }
+      h2{
+        text-align: center;
+        font-family: sans-serif;
+        color: cadetblue;
+        margin: 0.8rem 0;
+      }
+      .calendar{
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        width: 1px;
+      }
+      .cuadradototal{
+        margin: 300px;
+        position: absolute;
+        display: grid;
+        padding: 0 60px;
+        margin-top: 650px;
+        right: 40px;
+        top: 70px;
+      }
+      .cuadrado1{
+        width: 200px;
+        height: 30px;
+        background: rgb(61, 171, 190);
+        text-align: center;
+        border: 2px initial #66d2f3;
+        box-shadow: 4px 2px 2px 2px lightgray;
+      }
+      .cuadrado2{
+        width: 200px;
+        height: 70px;
+        background:rgb(255, 255, 255);
+        border: 2px initial #66d2f3;
+        box-shadow: 4px 2px 2px 2px lightgray;
+      }
+      .cuadrado3{
+        width: 200px;
+        height: 25px;
+        background:  #b0e0f3;
+        text-align: center;
+        border: 2px initial  #66d2f3;
+        box-shadow: 4px 2px 2px 2px lightgray;
+      }
+      .cuadrado4{
+        width: 200px;
+        height: 25px;
+        background:  #aee8ff;
+        text-align: center;
+        border: 2px initial  #66d2f3;
+        box-shadow: 4px 2px 2px 2px lightgray;
+      }
+      .cuadrado5{
+        width: 200px;
+        height: 25px;
+        background:  #91d0e9;
+        text-align: center;
+        border: 2px initial  #66d2f3;
+        box-shadow: 4px 2px 2px 2px lightgray;
+      }
+      .coment{
+        background:lightcyan;
+        position: absolute;
+        width: 125px;
+        height: 125px;
+        display: grid;
+        margin: 150px;
+        right: 100px;
+        margin-top: 200px;
+        padding: 0 20px;
+      }
+      .pin{
+        margin-bottom: 0.5px;
+        margin-left: 20px;
+      }
+      .p7{
+        font-family: 'Zen Kaku Gothic Antique', sans-serif;
+        font-size: 1.3rem;
+        text-align: center;
+        font-weight: 500;
+        border-radius: 500px;
+      }
+      .p6{
+        font-family: 'Kanit', sans-serif;
+        font-weight: 600;
+      }
+      .ico{
+        text-align: center;
+        justify-content: center;
+        margin-top: 40px;
+        margin-left: 40px;
+        height: 90px;
+      }
+      .A{
+        text-align: center;
+      }
+      .B{
+          text-align: center;
+          font-size: 0.9rem;
+      }
+      .C{
+        text-align:center ;
+      }
+      .D{
+          text-align: center;
+      }
+      .E{
+        text-align: center;
+      }
+      .F2{
+        text-align: center;
+      }
+      .bloque2{
+        height: 250px;
+        width: 200px;
+        background :rgb(0, 0, 0,0.3);
+        display: inline-block;
+        border-radius: 20px;
+        margin-left: 200px;
+        margin-top: 10px;
+        animation-name: deslizar;
+        animation-duration: 5s;
+      }
+      .bloque3{
+        height: 250px;
+        width: 200px;
+        background :rgb(0, 0, 0,0.3);
+        border-radius: 20px;
+        display: inline-block;
+        margin-left: 200px;
+        animation-name: deslizar;
+        animation-duration: 5s;
+      }
+      .bloque4{
+        height: 250px;
+        width: 200px;
+        background :rgb(0, 0, 0,0.3);
+        border-radius:20px;
+        display: inline-block;
+        margin-left: 200px;
+        animation-name: deslizar;
+        animation-duration: 5s;
+      }
+      .bloque5{
+        height: 250px;
+        width: 200px;
+        background :rgb(0, 0, 0,0.3);
+        border-radius:20px;
+        display: inline-block;
+        margin-left: 200px;
+        animation-name: deslizar;
+        animation-duration: 5s;
+      }
+      .bloque6{
+        height: 250px;
+        width: 200px;
+        background :rgb(0, 0, 0,0.3);
+        border-radius:20px;
+        display: inline-block;
+        margin-left: 200px;
+        animation-name: deslizar;
+        animation-duration: 5s;
+      }
+    .bloque6:hover{
+          transform: scale(1.05);
+          transition: all 0.9s;
+      }
+    .bloque2:hover{
+        transform: scale(1.05);
+          transition: all 0.9s;
+    }
+    .bloque3:hover{
+        transform: scale(1.05);
+        transition: all 0.9s;
+    }
+    .bloque4:hover{
+        transform: scale(1.05);
+          transition: all 0.9s;
+    }
+    .bloque5:hover{
+        transform: scale(1.05);
+          transition: all 0.9s;
+    }
+    .bloque:hover{
+        transform: scale(1.05);
+          transition: all 0.9s;
+    }
+    #titulo6{
+        color: #1d6d9e;
+        font-size: 2rem;
+  font-style: italic;
+  text-shadow: 1px 1px 3px oldlace;
+  text-align: center;
+    }
+      @keyframes deslizar{
+        0%{
+          opacity: 0;
+        }
+        1%{
+          transform: translateY(150px);
+        }
+        10%{
+          opacity: 1;
+          transform: translateY(150px);
+        }
+      }
 .container-fluid {
     display: grid;
     grid-template-columns: 1fr;
